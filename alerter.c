@@ -3,7 +3,7 @@
 
 void check_and_alert(float maxThreshold, alerter_funcptr alerters[], struct Stats computedStats)
 {
-  int i = 0, int loop_cntr=2;
+  int i=0, int loop_cntr=2;
   
   //call email and led alert function when max value is breached
   if(computedStats.max > maxThreshold)
