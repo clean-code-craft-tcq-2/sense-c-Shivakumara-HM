@@ -8,7 +8,7 @@ struct Stats compute_statistics(const float* numberset, int setlength)
     int k=0; 
     float sum; 
     float smallest=numberset[0]; 
-    float bigggest=numberset[0];
+    float biggest=numberset[0];
    
     //code to calculate average of numberset
     for (i=0;i<setlength;i++)
