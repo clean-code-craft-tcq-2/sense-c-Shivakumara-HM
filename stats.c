@@ -28,11 +28,7 @@ struct Stats compute_statistics(const float* numberset, int setlength)
         if(numberset[k]>max)
         biggest = numberset[k];
     }
-    s.max=biggest; 
-        
-    return s.average;
-    return s.min;
-    return s.max;  
+    s.max=biggest;   
 }
 int emailAlertCallCount = 0;
 int ledAlertCallCount = 0;
