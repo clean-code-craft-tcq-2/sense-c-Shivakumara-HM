@@ -5,7 +5,7 @@ struct Stats compute_statistics(const float* numberset, int setlength)
     struct Stats s;
     int i=0; 
     int j=0; 
-    int k=; 
+    int k=0; 
     float sum; 
     float smallest=numberset[0]; 
     float bigggest=numberset[0];
@@ -28,10 +28,12 @@ struct Stats compute_statistics(const float* numberset, int setlength)
     //code to calculate max of numberset
     for (k=1;k<setlength;k++)
     {
-        if(numberset[k]>max)
+        if(numberset[k]>biggest)
         biggest = numberset[k];
     }
-    s.max=biggest;   
+    s.max=biggest; 
+    
+    return struct Stats;
 }
 int emailAlertCallCount = 0;
 int ledAlertCallCount = 0;
