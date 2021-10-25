@@ -22,12 +22,12 @@ void check_and_alert(float maxThreshold, alerter_funcptr alerters[], struct Stat
 void emailAlerter()
 {
   //increment the email alert count
-  emailAlertCallcount++;
+  emailAlertCallCount++;
 }
 void ledAlerter()
 {
   //increment the led alert count
-  ledAlertCallcount++;
+  ledAlertCallCount++;
 }
 
 
