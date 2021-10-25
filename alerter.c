@@ -1,5 +1,5 @@
 #include "stats.h"
-#include "alerters.h"
+#include "alerter.h"
 
 void check_and_alert(float maxThreshold, alerter_funcptr alerters[], struct Stats computedStats)
 {
