@@ -3,10 +3,7 @@
 struct Stats compute_statistics(const float* numberset, int setlength)
 {
     struct Stats s;
-    int i=0, 
-    int j=0; 
-    int k=0, 
-    float sum, 
+    int i=0, int j=0; int k=0, float sum; 
     float smallest=numberset[0], 
     float bigggest=numberset[0];
    
