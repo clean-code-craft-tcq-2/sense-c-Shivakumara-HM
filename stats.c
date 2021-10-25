@@ -33,7 +33,7 @@ struct Stats compute_statistics(const float* numberset, int setlength)
     }
     s.max=biggest; 
     
-    return struct Stats;
+    return s;
 }
 int emailAlertCallCount = 0;
 int ledAlertCallCount = 0;
